@@ -1,7 +1,16 @@
 // This is a stickersheet for some common functions that I use, a lot of this has been ripped from others amazing people work and I will try to link their profiles in the description
 
+// ~~~~~~~~~~ | Utility | ~~~~~~~~~~
+// midi, use:
+// float cc1 = 3. * 127. + 1.; // for defining midi cc
+// float r = texture2D(u_midi,midiCoord(cc1)).w; // to get the value
+vec2 midiCoord(float offset){
+    float x = mod(offset,32.);
+    float y = offset / 32.;
+    return vec2(x,y)/32.;
+}
 
-// Visual effects
+// ~~~~~~~~~~~ |Visual effects| ~~~~~~~~~~
 
 // Watercolor feedback
 //adapted from https://www.shadertoy.com/view/Mslczf

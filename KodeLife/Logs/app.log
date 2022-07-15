@@ -1,0 +1,1992 @@
+[04:49:53.867][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.871][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[04:49:53.871][N][v.App] BUILD TYPE       : Release
+[04:49:53.871][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.871][N][v.App] OS NAME          : iOS (Darwin)
+[04:49:53.871][N][v.App] OS VERSION       : 15 (21.0.0)
+[04:49:53.871][N][v.App] OS ARCH          : iPhone12,3
+[04:49:53.871][N][v.App] OS LANG          : es
+[04:49:53.871][N][v.App] CPU COUNT        : 6
+[04:49:53.871][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.871][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[04:49:53.871][N][v.App] APP NAME         : 'KodeLife'
+[04:49:53.871][N][v.App] APP VERSION      : '1.0.2.157'
+[04:49:53.871][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m'
+[04:49:53.871][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/Logs'
+[04:49:53.871][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/'
+[04:49:53.871][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/A3CCF830-F9BC-4EC2-812B-4A55119958C1/KodeLife.app/'
+[04:49:53.871][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.871][I][v.App] Creating instance... DONE!
+[04:49:53.871][I][v] v.es2.CheckAndRegisterRenderDevice...
+[04:49:53.900][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[04:49:53.901][I][v] v.es3.CheckAndRegisterRenderDevice...
+[04:49:53.902][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[04:49:53.902][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[04:49:53.902][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[04:49:53.902][N][v.App] Init...
+[04:49:53.903][N][kl] Init...
+[04:49:53.903][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[04:49:53.903][N][v.Config] File does not exist... bailing!
+[04:49:53.903][N][v.Config] Loading Config from string: ...
+[04:49:53.903][N][v.Config] Loading Config from string: DONE!
+[04:49:53.904][N][v.es3.PdrRenderDevice] Init...
+[04:49:53.904][N][v.es3.PdrNativeRenderContext] Init...
+[04:49:53.904][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[04:49:53.943][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.943][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[04:49:53.943][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[04:49:53.944][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A13 GPU
+[04:49:53.944][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[04:49:53.944][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.944][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[04:49:53.944][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[04:49:53.944][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[04:49:53.944][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[04:49:53.944][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[04:49:53.945][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[04:49:53.945][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.945][N][v.es3.PdrRenderDevice] Init... DONE!
+[04:49:53.946][N][v.ios.PdrDisplay] Init...
+[04:49:53.946][N][v.es3.PdrRenderContext] Init...
+[04:49:53.947][N][v.es3.PdrNativeRenderContext] Init...
+[04:49:53.947][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[04:49:53.947][N][v.es3.PdrRenderContext] Init pipeline state...
+[04:49:53.947][N][v.es3.PdrRenderContext] Init... DONE!
+[04:49:53.947][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[04:49:53.949][N][v.ios.PdrDisplay] Init... DONE!
+[04:49:53.949][N][v.Graphics2DResources] InitFontSystem...
+[04:49:53.950][N][v.Graphics2DResources] Creating internal fonts...
+[04:49:53.951][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[04:49:53.951][N][v.Graphics2DResources] InitFontSystem... DONE!
+[04:49:53.951][N][v.Graphics2DResources] InitRenderResources...
+[04:49:53.952][N][v.Graphics2DResources] Created texture atlas of size 4096
+[04:49:53.958][N][v.Graphics2DResources] InitRenderResources... DONE!
+[04:49:53.965][N][kl.KLTextureCopy] Init
+[04:49:53.976][I][v] KLLoader: Can't read file: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'
+[04:49:53.976][N][kl.KLDocument] Init...
+[04:49:53.976][N][kl.KLDocument] Init... DONE!
+[04:49:53.978][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[04:49:53.978][N][v.Audio] Init...
+[04:49:53.978][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[04:49:56.122][I][v.Audio] Initializing audio device... DONE!
+[04:49:56.122][I][v.Audio] [0] iOS Audio
+[04:49:56.122][I][v.Audio]  + OUTPUTS (1)
+[04:49:56.122][I][v.Audio]  (0) iOS Audio
+[04:49:56.122][I][v.Audio]  + INPUTS (1)
+[04:49:56.122][I][v.Audio]  (0) iOS Audio
+[04:49:56.126][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[04:49:56.127][N][v.Audio] Init... DONE!
+[04:49:56.127][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[04:49:56.159][N][kl] Init... DONE!
+[04:49:56.159][N][v.App] Init... DONE!
+[04:50:09.945][I][v] KLLoader: Loading version 16 project file...
+[04:50:09.945][N][kl.KLDocument] Init...
+[04:50:09.946][N][kl.KLDocument] Init... DONE!
+[04:50:09.947][I][v] KLLoader: Loading project: DONE!
+[04:53:31.600][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[04:53:31.606][I][v] KLLoader: Saving project: DONE!
+[04:53:31.606][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[04:53:31.607][N][v.Config] Saving Config: DONE!
+[04:55:29.069][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[04:55:29.071][I][v] KLLoader: Saving project: DONE!
+[04:55:29.072][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[04:55:29.074][N][v.Config] Saving Config: DONE!
+[05:05:22.934][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[05:05:22.937][I][v] KLLoader: Saving project: DONE!
+[05:05:22.939][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[05:05:22.940][N][v.Config] Saving Config: DONE!
+[05:39:14.593][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[05:39:14.595][I][v] KLLoader: Saving project: DONE!
+[05:39:14.596][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[05:39:14.597][N][v.Config] Saving Config: DONE!
+[20:41:36.942][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[20:41:36.942][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[20:41:36.942][N][v.App] BUILD TYPE       : Release
+[20:41:36.942][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[20:41:36.942][N][v.App] OS NAME          : iOS (Darwin)
+[20:41:36.943][N][v.App] OS VERSION       : 15 (21.0.0)
+[20:41:36.943][N][v.App] OS ARCH          : iPhone12,3
+[20:41:36.943][N][v.App] OS LANG          : es
+[20:41:36.943][N][v.App] CPU COUNT        : 6
+[20:41:36.943][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[20:41:36.943][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[20:41:36.943][N][v.App] APP NAME         : 'KodeLife'
+[20:41:36.943][N][v.App] APP VERSION      : '1.0.2.157'
+[20:41:36.943][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m'
+[20:41:36.943][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/Logs'
+[20:41:36.943][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/'
+[20:41:36.943][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/A3CCF830-F9BC-4EC2-812B-4A55119958C1/KodeLife.app/'
+[20:41:36.943][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[20:41:36.943][I][v.App] Creating instance... DONE!
+[20:41:36.943][I][v] v.es2.CheckAndRegisterRenderDevice...
+[20:41:36.957][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[20:41:36.957][I][v] v.es3.CheckAndRegisterRenderDevice...
+[20:41:36.958][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[20:41:36.958][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[20:41:36.958][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[20:41:36.958][N][v.App] Init...
+[20:41:36.959][N][kl] Init...
+[20:41:36.959][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[20:41:36.961][N][v.Config] Loading Config: DONE!
+[20:41:36.961][N][v.Config] Loading Config from string: ...
+[20:41:36.961][N][v.Config] Loading Config from string: DONE!
+[20:41:36.961][N][v.es3.PdrRenderDevice] Init...
+[20:41:36.961][N][v.es3.PdrNativeRenderContext] Init...
+[20:41:36.962][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[20:41:37.004][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[20:41:37.004][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[20:41:37.004][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[20:41:37.004][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A13 GPU
+[20:41:37.004][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[20:41:37.004][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[20:41:37.004][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[20:41:37.004][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[20:41:37.004][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[20:41:37.005][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[20:41:37.005][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[20:41:37.005][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[20:41:37.005][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[20:41:37.006][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[20:41:37.006][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[20:41:37.006][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[20:41:37.006][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[20:41:37.006][N][v.es3.PdrRenderDevice] Init... DONE!
+[20:41:37.007][N][v.ios.PdrDisplay] Init...
+[20:41:37.007][N][v.es3.PdrRenderContext] Init...
+[20:41:37.007][N][v.es3.PdrNativeRenderContext] Init...
+[20:41:37.007][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[20:41:37.007][N][v.es3.PdrRenderContext] Init pipeline state...
+[20:41:37.007][N][v.es3.PdrRenderContext] Init... DONE!
+[20:41:37.007][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[20:41:37.009][N][v.ios.PdrDisplay] Init... DONE!
+[20:41:37.009][N][v.Graphics2DResources] InitFontSystem...
+[20:41:37.010][N][v.Graphics2DResources] Creating internal fonts...
+[20:41:37.010][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[20:41:37.010][N][v.Graphics2DResources] InitFontSystem... DONE!
+[20:41:37.010][N][v.Graphics2DResources] InitRenderResources...
+[20:41:37.012][N][v.Graphics2DResources] Created texture atlas of size 4096
+[20:41:37.016][N][v.Graphics2DResources] InitRenderResources... DONE!
+[20:41:37.024][N][kl.KLTextureCopy] Init
+[20:41:37.033][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[20:41:37.034][I][v] KLLoader: Loading version 16 project file...
+[20:41:37.034][N][kl.KLDocument] Init...
+[20:41:37.034][N][kl.KLDocument] Init... DONE!
+[20:41:37.034][I][v] KLLoader: Loading project: DONE!
+[20:41:37.039][N][kl] Init... DONE!
+[20:41:37.039][N][v.App] Init... DONE!
+[20:41:54.433][N][kl.KLDocument] Init...
+[20:41:54.433][N][kl.KLDocument] Init... DONE!
+[20:41:54.440][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[20:41:54.441][N][v.Audio] Init...
+[20:41:54.441][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[20:41:56.365][I][v.Audio] Initializing audio device... DONE!
+[20:41:56.365][I][v.Audio] [0] iOS Audio
+[20:41:56.366][I][v.Audio]  + OUTPUTS (1)
+[20:41:56.366][I][v.Audio]  (0) iOS Audio
+[20:41:56.366][I][v.Audio]  + INPUTS (1)
+[20:41:56.366][I][v.Audio]  (0) iOS Audio
+[20:41:56.370][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[20:41:56.370][N][v.Audio] Init... DONE!
+[20:41:56.370][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[20:46:18.576][I][v] OpenFileURL: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Illustrations/Zoology/Herpetology/Edited/H 02.png'...
+[20:46:18.576][I][v] OpenFileURL: isAlreadyInDocs: NO
+[20:46:18.576][I][v] OpenFileURL: startAccessingSecurityScopedResource: YES
+[20:46:18.576][I][v] CopyToDocuments: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Illustrations/Zoology/Herpetology/Edited/H 02.png' to '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/H 02.png'...
+[20:46:18.583][I][v] CopyToDocuments: DONE!
+[20:46:18.583][I][v] OpenFileURL: DONE!
+[20:48:01.538][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[20:48:01.541][I][v] KLLoader: Saving project: DONE!
+[20:48:01.542][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[20:48:01.544][N][v.Config] Saving Config: DONE!
+[20:48:03.234][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[20:48:03.235][I][v] KLLoader: Saving project: DONE!
+[20:48:03.236][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[20:48:03.236][N][v.Config] Saving Config: DONE!
+[20:48:03.519][N][v.App] Exit...
+[20:48:03.519][N][kl] Exit...
+[20:48:03.519][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[20:48:03.520][I][v] KLLoader: Saving project: DONE!
+[20:48:03.520][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[20:48:03.520][N][v.Config] Saving Config: DONE!
+[20:48:03.520][N][kl] Exit... DONE!
+[20:48:03.521][N][v.App] Exit... DONE!
+[20:48:03.521][N][v.App] Calling exit()...
+[21:39:45.990][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:39:45.990][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[21:39:45.990][N][v.App] BUILD TYPE       : Release
+[21:39:45.990][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:39:45.990][N][v.App] OS NAME          : iOS (Darwin)
+[21:39:45.991][N][v.App] OS VERSION       : 15 (21.0.0)
+[21:39:45.991][N][v.App] OS ARCH          : iPhone12,3
+[21:39:45.991][N][v.App] OS LANG          : es
+[21:39:45.991][N][v.App] CPU COUNT        : 6
+[21:39:45.991][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:39:45.991][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[21:39:45.991][N][v.App] APP NAME         : 'KodeLife'
+[21:39:45.991][N][v.App] APP VERSION      : '1.0.2.157'
+[21:39:45.991][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m'
+[21:39:45.991][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/Logs'
+[21:39:45.991][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/'
+[21:39:45.991][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/A3CCF830-F9BC-4EC2-812B-4A55119958C1/KodeLife.app/'
+[21:39:45.991][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:39:45.991][I][v.App] Creating instance... DONE!
+[21:39:45.991][I][v] v.es2.CheckAndRegisterRenderDevice...
+[21:39:46.024][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[21:39:46.024][I][v] v.es3.CheckAndRegisterRenderDevice...
+[21:39:46.025][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[21:39:46.025][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[21:39:46.025][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[21:39:46.025][N][v.App] Init...
+[21:39:46.032][N][kl] Init...
+[21:39:46.032][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[21:39:46.034][N][v.Config] Loading Config: DONE!
+[21:39:46.034][N][v.Config] Loading Config from string: ...
+[21:39:46.034][N][v.Config] Loading Config from string: DONE!
+[21:39:46.034][N][v.es3.PdrRenderDevice] Init...
+[21:39:46.034][N][v.es3.PdrNativeRenderContext] Init...
+[21:39:46.035][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:39:46.091][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.091][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[21:39:46.091][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[21:39:46.091][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A13 GPU
+[21:39:46.091][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[21:39:46.091][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.091][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[21:39:46.091][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[21:39:46.091][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[21:39:46.091][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.091][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[21:39:46.091][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[21:39:46.091][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[21:39:46.092][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[21:39:46.092][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[21:39:46.093][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[21:39:46.093][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[21:39:46.093][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[21:39:46.093][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.093][N][v.es3.PdrRenderDevice] Init... DONE!
+[21:39:46.094][N][v.ios.PdrDisplay] Init...
+[21:39:46.094][N][v.es3.PdrRenderContext] Init...
+[21:39:46.094][N][v.es3.PdrNativeRenderContext] Init...
+[21:39:46.094][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:39:46.094][N][v.es3.PdrRenderContext] Init pipeline state...
+[21:39:46.094][N][v.es3.PdrRenderContext] Init... DONE!
+[21:39:46.094][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[21:39:46.099][N][v.ios.PdrDisplay] Init... DONE!
+[21:39:46.099][N][v.Graphics2DResources] InitFontSystem...
+[21:39:46.101][N][v.Graphics2DResources] Creating internal fonts...
+[21:39:46.101][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[21:39:46.101][N][v.Graphics2DResources] InitFontSystem... DONE!
+[21:39:46.101][N][v.Graphics2DResources] InitRenderResources...
+[21:39:46.104][N][v.Graphics2DResources] Created texture atlas of size 4096
+[21:39:46.110][N][v.Graphics2DResources] InitRenderResources... DONE!
+[21:39:46.118][N][kl.KLTextureCopy] Init
+[21:39:46.156][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[21:39:46.157][I][v] KLLoader: Loading version 16 project file...
+[21:39:46.158][N][kl.KLDocument] Init...
+[21:39:46.158][N][kl.KLDocument] Init... DONE!
+[21:39:46.161][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:39:46.161][N][v.Audio] Init...
+[21:39:46.162][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[21:39:47.894][I][v.Audio] Initializing audio device... DONE!
+[21:39:47.894][I][v.Audio] [0] iOS Audio
+[21:39:47.894][I][v.Audio]  + OUTPUTS (1)
+[21:39:47.895][I][v.Audio]  (0) iOS Audio
+[21:39:47.895][I][v.Audio]  + INPUTS (1)
+[21:39:47.895][I][v.Audio]  (0) iOS Audio
+[21:39:47.898][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[21:39:47.898][N][v.Audio] Init... DONE!
+[21:39:47.898][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:39:47.900][I][v] KLLoader: Loading project: DONE!
+[21:39:47.924][N][kl] Init... DONE!
+[21:39:47.924][N][v.App] Init... DONE!
+[21:42:14.336][N][kl.KLDocument] Init...
+[21:42:14.338][N][kl.KLDocument] Init... DONE!
+[21:42:56.728][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[21:42:56.730][I][v] KLLoader: Saving project: DONE!
+[21:42:56.731][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[21:42:56.732][N][v.Config] Saving Config: DONE!
+[21:46:11.958][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[21:46:11.960][I][v] KLLoader: Saving project: DONE!
+[21:46:11.961][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[21:46:11.962][N][v.Config] Saving Config: DONE!
+[21:49:05.277][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[21:49:05.278][I][v] KLLoader: Saving project: DONE!
+[21:49:05.280][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[21:49:05.281][N][v.Config] Saving Config: DONE!
+[21:52:20.309][I][v] KLLoader: Loading version 16 project file...
+[21:52:20.310][N][kl.KLDocument] Init...
+[21:52:20.311][N][kl.KLDocument] Init... DONE!
+[21:52:20.311][I][v] KLLoader: Loading project: DONE!
+[21:52:49.019][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[21:52:49.020][I][v] KLLoader: Saving project: DONE!
+[21:52:49.021][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[21:52:49.023][N][v.Config] Saving Config: DONE!
+[22:01:03.413][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[22:01:03.416][I][v] KLLoader: Saving project: DONE!
+[22:01:03.418][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[22:01:03.420][N][v.Config] Saving Config: DONE!
+[23:05:51.786][N][v.App] Exit...
+[23:05:51.790][N][kl] Exit...
+[23:05:51.800][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Documents/autosave.klproj'...
+[23:05:51.802][I][v] KLLoader: Saving project: DONE!
+[23:05:51.812][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/15043FA6-8F36-4984-8D56-A650D0EAA270/Library/net.hexler.kodelife-m/app.cfg'...
+[23:05:51.820][N][v.Config] Saving Config: DONE!
+[23:05:51.820][N][kl] Exit... DONE!
+[23:05:51.822][N][v.App] Exit... DONE!
+[23:05:51.822][N][v.App] Calling exit()...
+[21:25:30.669][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.670][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[21:25:30.671][N][v.App] BUILD TYPE       : Release
+[21:25:30.671][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.671][N][v.App] OS NAME          : iOS (Darwin)
+[21:25:30.671][N][v.App] OS VERSION       : 15.2 (21.2.0)
+[21:25:30.671][N][v.App] OS ARCH          : iPhone14,2
+[21:25:30.671][N][v.App] OS LANG          : es
+[21:25:30.671][N][v.App] CPU COUNT        : 6
+[21:25:30.671][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.671][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[21:25:30.671][N][v.App] APP NAME         : 'KodeLife'
+[21:25:30.671][N][v.App] APP VERSION      : '1.0.2.157'
+[21:25:30.671][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m'
+[21:25:30.671][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Logs'
+[21:25:30.671][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/'
+[21:25:30.671][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/DA431CD2-4099-480B-8EAD-04F358D84738/KodeLife.app/'
+[21:25:30.671][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.671][I][v.App] Creating instance... DONE!
+[21:25:30.671][I][v] v.es2.CheckAndRegisterRenderDevice...
+[21:25:30.702][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[21:25:30.702][I][v] v.es3.CheckAndRegisterRenderDevice...
+[21:25:30.702][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[21:25:30.702][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[21:25:30.702][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[21:25:30.702][N][v.App] Init...
+[21:25:30.703][N][kl] Init...
+[21:25:30.703][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:25:30.704][N][v.Config] Loading Config: DONE!
+[21:25:30.704][N][v.Config] Loading Config from string: ...
+[21:25:30.704][N][v.Config] Loading Config from string: DONE!
+[21:25:30.704][N][v.es3.PdrRenderDevice] Init...
+[21:25:30.704][N][v.es3.PdrNativeRenderContext] Init...
+[21:25:30.705][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:25:30.724][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.724][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[21:25:30.724][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[21:25:30.724][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[21:25:30.724][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[21:25:30.724][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.724][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[21:25:30.724][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[21:25:30.724][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[21:25:30.724][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[21:25:30.724][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[21:25:30.725][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[21:25:30.725][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.725][N][v.es3.PdrRenderDevice] Init... DONE!
+[21:25:30.726][N][v.ios.PdrDisplay] Init...
+[21:25:30.726][N][v.es3.PdrRenderContext] Init...
+[21:25:30.726][N][v.es3.PdrNativeRenderContext] Init...
+[21:25:30.726][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:25:30.726][N][v.es3.PdrRenderContext] Init pipeline state...
+[21:25:30.726][N][v.es3.PdrRenderContext] Init... DONE!
+[21:25:30.726][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[21:25:30.728][N][v.ios.PdrDisplay] Init... DONE!
+[21:25:30.728][N][v.Graphics2DResources] InitFontSystem...
+[21:25:30.729][N][v.Graphics2DResources] Creating internal fonts...
+[21:25:30.729][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[21:25:30.729][N][v.Graphics2DResources] InitFontSystem... DONE!
+[21:25:30.729][N][v.Graphics2DResources] InitRenderResources...
+[21:25:30.731][N][v.Graphics2DResources] Created texture atlas of size 4096
+[21:25:30.735][N][v.Graphics2DResources] InitRenderResources... DONE!
+[21:25:30.739][N][kl.KLTextureCopy] Init
+[21:25:30.750][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:25:30.750][I][v] KLLoader: Loading version 16 project file...
+[21:25:30.750][N][kl.KLDocument] Init...
+[21:25:30.750][N][kl.KLDocument] Init... DONE!
+[21:25:30.752][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:25:30.752][N][v.Audio] Init...
+[21:25:30.752][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[21:25:32.279][I][v.Audio] Initializing audio device... DONE!
+[21:25:32.280][I][v.Audio] [0] iOS Audio
+[21:25:32.280][I][v.Audio]  + OUTPUTS (1)
+[21:25:32.280][I][v.Audio]  (0) iOS Audio
+[21:25:32.280][I][v.Audio]  + INPUTS (1)
+[21:25:32.280][I][v.Audio]  (0) iOS Audio
+[21:25:32.283][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[21:25:32.283][N][v.Audio] Init... DONE!
+[21:25:32.283][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:25:32.283][I][v] KLLoader: Loading project: DONE!
+[21:25:32.296][N][kl] Init... DONE!
+[21:25:32.296][N][v.App] Init... DONE!
+[21:26:00.131][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:26:00.136][I][v] KLLoader: Saving project: DONE!
+[21:26:00.137][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:26:00.137][N][v.Config] Saving Config: DONE!
+[21:26:02.097][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:26:02.099][I][v] KLLoader: Saving project: DONE!
+[21:26:02.099][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:26:02.100][N][v.Config] Saving Config: DONE!
+[21:26:02.402][N][v.App] Exit...
+[21:26:02.402][N][kl] Exit...
+[21:26:02.402][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:26:02.402][I][v] KLLoader: Saving project: DONE!
+[21:26:02.403][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:26:02.403][N][v.Config] Saving Config: DONE!
+[21:26:02.403][N][kl] Exit... DONE!
+[21:26:02.403][N][v.App] Exit... DONE!
+[21:26:02.403][N][v.App] Calling exit()...
+[21:26:04.893][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.893][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[21:26:04.893][N][v.App] BUILD TYPE       : Release
+[21:26:04.893][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.893][N][v.App] OS NAME          : iOS (Darwin)
+[21:26:04.893][N][v.App] OS VERSION       : 15.2 (21.2.0)
+[21:26:04.893][N][v.App] OS ARCH          : iPhone14,2
+[21:26:04.893][N][v.App] OS LANG          : es
+[21:26:04.893][N][v.App] CPU COUNT        : 6
+[21:26:04.893][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.893][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[21:26:04.893][N][v.App] APP NAME         : 'KodeLife'
+[21:26:04.893][N][v.App] APP VERSION      : '1.0.2.157'
+[21:26:04.893][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m'
+[21:26:04.894][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Logs'
+[21:26:04.894][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/'
+[21:26:04.894][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/DA431CD2-4099-480B-8EAD-04F358D84738/KodeLife.app/'
+[21:26:04.894][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.894][I][v.App] Creating instance... DONE!
+[21:26:04.894][I][v] v.es2.CheckAndRegisterRenderDevice...
+[21:26:04.903][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[21:26:04.903][I][v] v.es3.CheckAndRegisterRenderDevice...
+[21:26:04.904][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[21:26:04.904][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[21:26:04.904][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[21:26:04.904][N][v.App] Init...
+[21:26:04.905][N][kl] Init...
+[21:26:04.905][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:26:04.905][N][v.Config] Loading Config: DONE!
+[21:26:04.906][N][v.Config] Loading Config from string: ...
+[21:26:04.906][N][v.Config] Loading Config from string: DONE!
+[21:26:04.906][N][v.es3.PdrRenderDevice] Init...
+[21:26:04.906][N][v.es3.PdrNativeRenderContext] Init...
+[21:26:04.906][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:26:04.915][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.915][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[21:26:04.915][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[21:26:04.915][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[21:26:04.915][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[21:26:04.915][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.915][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[21:26:04.915][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[21:26:04.915][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[21:26:04.915][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[21:26:04.915][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[21:26:04.915][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[21:26:04.915][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[21:26:04.916][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[21:26:04.916][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.916][N][v.es3.PdrRenderDevice] Init... DONE!
+[21:26:04.917][N][v.ios.PdrDisplay] Init...
+[21:26:04.917][N][v.es3.PdrRenderContext] Init...
+[21:26:04.917][N][v.es3.PdrNativeRenderContext] Init...
+[21:26:04.918][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[21:26:04.918][N][v.es3.PdrRenderContext] Init pipeline state...
+[21:26:04.918][N][v.es3.PdrRenderContext] Init... DONE!
+[21:26:04.918][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[21:26:04.920][N][v.ios.PdrDisplay] Init... DONE!
+[21:26:04.920][N][v.Graphics2DResources] InitFontSystem...
+[21:26:04.920][N][v.Graphics2DResources] Creating internal fonts...
+[21:26:04.920][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[21:26:04.920][N][v.Graphics2DResources] InitFontSystem... DONE!
+[21:26:04.920][N][v.Graphics2DResources] InitRenderResources...
+[21:26:04.922][N][v.Graphics2DResources] Created texture atlas of size 4096
+[21:26:04.930][N][v.Graphics2DResources] InitRenderResources... DONE!
+[21:26:04.931][N][kl.KLTextureCopy] Init
+[21:26:04.939][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:26:04.940][I][v] KLLoader: Loading version 16 project file...
+[21:26:04.940][N][kl.KLDocument] Init...
+[21:26:04.940][N][kl.KLDocument] Init... DONE!
+[21:26:04.940][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:26:04.940][N][v.Audio] Init...
+[21:26:04.941][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[21:26:06.267][I][v.Audio] Initializing audio device... DONE!
+[21:26:06.267][I][v.Audio] [0] iOS Audio
+[21:26:06.268][I][v.Audio]  + OUTPUTS (1)
+[21:26:06.268][I][v.Audio]  (0) iOS Audio
+[21:26:06.268][I][v.Audio]  + INPUTS (1)
+[21:26:06.268][I][v.Audio]  (0) iOS Audio
+[21:26:06.268][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[21:26:06.268][N][v.Audio] Init... DONE!
+[21:26:06.268][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[21:26:06.268][I][v] KLLoader: Loading project: DONE!
+[21:26:06.279][N][kl] Init... DONE!
+[21:26:06.279][N][v.App] Init... DONE!
+[21:26:12.566][N][kl.KLDocument] Init...
+[21:26:12.566][N][kl.KLDocument] Init... DONE!
+[21:26:26.800][I][v] KLLoader: Loading version 16 project file...
+[21:26:26.812][N][v.es2.PdrRenderDevice] Init...
+[21:26:26.812][N][v.es2.PdrNativeRenderContext] Init...
+[21:26:26.814][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[21:26:26.818][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:26.818][N][v.es2.PdrRenderDevice] VERSION                  : OpenGL ES 2.0 Metal - 94.5
+[21:26:26.818][N][v.es2.PdrRenderDevice] VENDOR                   : Apple Inc.
+[21:26:26.818][N][v.es2.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[21:26:26.818][N][v.es2.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 1.00
+[21:26:26.818][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:26.818][N][v.es2.PdrRenderDevice] OpenGL ES Extensions:
+[21:26:26.818][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_depth_texture
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_depth_texture_cube_map
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_depth24
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_element_index_uint
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_fbo_render_mipmap
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_mapbuffer
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_packed_depth_stencil
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_rgb8_rgba8
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_standard_derivatives
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_texture_float
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float_linear
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_OES_vertex_array_object
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_EXT_blend_minmax
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[21:26:26.818][N][v.es2.PdrRenderDevice] GL_EXT_debug_label
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_debug_marker
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_discard_framebuffer
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_draw_instanced
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_instanced_arrays
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_map_buffer_range
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_occlusion_query_boolean
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_read_format_bgra
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_separate_shader_objects
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_shader_texture_lod
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_shadow_samplers
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_sRGB
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_texture_rg
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_EXT_texture_storage
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_clip_distance
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_framebuffer_multisample
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_rgb_422
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_sync
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_texture_max_level
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_APPLE_texture_packed_float
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_IMG_read_format
+[21:26:26.819][N][v.es2.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[21:26:26.819][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 4096x4096
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 4096
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_TEXTURE_SIZE               : 4096
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 4096
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS              : 8
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 8
+[21:26:26.819][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 8
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_DRAW_BUFFERS               : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] MAX_SAMPLES                    : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY                  : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_SWIZZLE                : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_SAMPLER                : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_STORAGE                : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] INSTANCING_DRAW                : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] SHADER_SPIRV                   : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] TIMER_QUERY                    : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] DEBUG_MARKER                   : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] DEBUG_LABEL                    : 1
+[21:26:26.820][N][v.es2.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[21:26:26.820][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[21:26:26.820][N][v.es2.PdrRenderDevice] Init... DONE!
+[21:26:26.820][N][v.es2.PdrRenderContext] Init...
+[21:26:26.820][N][v.es2.PdrNativeRenderContext] Init...
+[21:26:26.821][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[21:26:26.821][N][v.es2.PdrRenderContext] Init pipeline state...
+[21:26:26.821][N][v.es2.PdrRenderContext] Init... DONE!
+[21:26:26.821][N][v.ios.PdrDisplay] Creating View: Profile: 'ES2'
+[21:26:26.822][N][kl.KLDocument] Init...
+[21:26:26.822][N][kl.KLDocument] Init... DONE!
+[21:26:26.823][I][v] KLLoader: Loading project: DONE!
+[21:26:29.666][I][v] KLLoader: Loading version 16 project file...
+[21:26:29.667][N][kl.KLDocument] Init...
+[21:26:29.667][N][kl.KLDocument] Init... DONE!
+[21:26:29.667][I][v] KLLoader: Loading project: DONE!
+[21:26:34.984][I][v] KLLoader: Loading version 16 project file...
+[21:26:34.984][N][kl.KLDocument] Init...
+[21:26:34.984][N][kl.KLDocument] Init... DONE!
+[21:26:34.985][I][v] KLLoader: Loading project: DONE!
+[21:26:53.768][N][kl.KLDocument] Init...
+[21:26:53.769][N][kl.KLDocument] Init... DONE!
+[21:26:53.771][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessControl.000000013B879000']
+[21:26:53.771][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessEval.000000013B879000']
+[21:26:53.772][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.Geometry.000000013B879000']
+[21:28:15.193][N][v.juce.PdrMIDI] ////////////////////////////////////////////////////////////////////////////////
+[21:28:15.842][N][v.juce.PdrMIDI] ////////////////////////////////////////////////////////////////////////////////
+[21:28:16.007][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:28:16.010][I][v] KLLoader: Saving project: DONE!
+[21:28:16.017][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:28:16.018][N][v.Config] Saving Config: DONE!
+[21:28:20.841][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:28:20.844][I][v] KLLoader: Saving project: DONE!
+[21:28:20.846][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:28:20.848][N][v.Config] Saving Config: DONE!
+[21:28:29.692][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:28:29.694][I][v] KLLoader: Saving project: DONE!
+[21:28:29.697][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:28:29.698][N][v.Config] Saving Config: DONE!
+[21:28:39.281][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[21:28:39.283][I][v] KLLoader: Saving project: DONE!
+[21:28:39.284][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[21:28:39.285][N][v.Config] Saving Config: DONE!
+[00:09:40.694][N][v.App] Exit...
+[00:09:40.695][N][kl] Exit...
+[00:09:40.696][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[00:09:40.697][I][v] KLLoader: Saving project: DONE!
+[00:09:40.699][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[00:09:40.701][N][v.Config] Saving Config: DONE!
+[00:09:40.701][N][kl] Exit... DONE!
+[00:09:40.701][N][v.App] Exit... DONE!
+[00:09:40.701][N][v.App] Calling exit()...
+[10:41:00.671][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.671][N][v.App] BUILD DATE       : Aug 27 2021 10:29:19
+[10:41:00.671][N][v.App] BUILD TYPE       : Release
+[10:41:00.671][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.671][N][v.App] OS NAME          : iOS (Darwin)
+[10:41:00.671][N][v.App] OS VERSION       : 15.2 (21.2.0)
+[10:41:00.671][N][v.App] OS ARCH          : iPhone14,2
+[10:41:00.672][N][v.App] OS LANG          : es
+[10:41:00.672][N][v.App] CPU COUNT        : 6
+[10:41:00.672][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.672][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[10:41:00.672][N][v.App] APP NAME         : 'KodeLife'
+[10:41:00.672][N][v.App] APP VERSION      : '1.0.2.157'
+[10:41:00.672][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m'
+[10:41:00.672][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Logs'
+[10:41:00.672][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/'
+[10:41:00.672][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/DA431CD2-4099-480B-8EAD-04F358D84738/KodeLife.app/'
+[10:41:00.672][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.672][I][v.App] Creating instance... DONE!
+[10:41:00.672][I][v] v.es2.CheckAndRegisterRenderDevice...
+[10:41:00.690][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[10:41:00.690][I][v] v.es3.CheckAndRegisterRenderDevice...
+[10:41:00.691][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[10:41:00.691][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[10:41:00.691][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[10:41:00.691][N][v.App] Init...
+[10:41:00.692][N][kl] Init...
+[10:41:00.692][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:41:00.692][N][v.Config] Loading Config: DONE!
+[10:41:00.692][N][v.Config] Loading Config from string: ...
+[10:41:00.692][N][v.Config] Loading Config from string: DONE!
+[10:41:00.692][N][v.es2.PdrRenderDevice] Init...
+[10:41:00.692][N][v.es2.PdrNativeRenderContext] Init...
+[10:41:00.693][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[10:41:00.695][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.695][N][v.es2.PdrRenderDevice] VERSION                  : OpenGL ES 2.0 Metal - 94.5
+[10:41:00.695][N][v.es2.PdrRenderDevice] VENDOR                   : Apple Inc.
+[10:41:00.695][N][v.es2.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[10:41:00.695][N][v.es2.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 1.00
+[10:41:00.696][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.696][N][v.es2.PdrRenderDevice] OpenGL ES Extensions:
+[10:41:00.696][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_depth_texture
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_depth_texture_cube_map
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_depth24
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_element_index_uint
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_fbo_render_mipmap
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_mapbuffer
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_packed_depth_stencil
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_rgb8_rgba8
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_standard_derivatives
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_texture_float
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float_linear
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_OES_vertex_array_object
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_blend_minmax
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_debug_label
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_debug_marker
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_discard_framebuffer
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_draw_instanced
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_instanced_arrays
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_map_buffer_range
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_occlusion_query_boolean
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_read_format_bgra
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_separate_shader_objects
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_shader_texture_lod
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_shadow_samplers
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_sRGB
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_texture_rg
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_EXT_texture_storage
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_clip_distance
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_framebuffer_multisample
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_rgb_422
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_sync
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_texture_max_level
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_APPLE_texture_packed_float
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_IMG_read_format
+[10:41:00.696][N][v.es2.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[10:41:00.696][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 4096x4096
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 4096
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_SIZE               : 4096
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 4096
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS              : 8
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 8
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 8
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_DRAW_BUFFERS               : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] MAX_SAMPLES                    : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY                  : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_SWIZZLE                : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_SAMPLER                : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_STORAGE                : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] INSTANCING_DRAW                : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] SHADER_SPIRV                   : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] TIMER_QUERY                    : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] DEBUG_MARKER                   : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] DEBUG_LABEL                    : 1
+[10:41:00.696][N][v.es2.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[10:41:00.696][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.696][N][v.es2.PdrRenderDevice] Init... DONE!
+[10:41:00.697][N][v.ios.PdrDisplay] Init...
+[10:41:00.697][N][v.es2.PdrRenderContext] Init...
+[10:41:00.697][N][v.es2.PdrNativeRenderContext] Init...
+[10:41:00.698][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[10:41:00.698][N][v.es2.PdrRenderContext] Init pipeline state...
+[10:41:00.698][N][v.es2.PdrRenderContext] Init... DONE!
+[10:41:00.698][N][v.ios.PdrDisplay] Creating View: Profile: 'ES2'
+[10:41:00.699][N][v.ios.PdrDisplay] Init... DONE!
+[10:41:00.699][N][v.Graphics2DResources] InitFontSystem...
+[10:41:00.700][N][v.Graphics2DResources] Creating internal fonts...
+[10:41:00.700][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[10:41:00.700][N][v.Graphics2DResources] InitFontSystem... DONE!
+[10:41:00.700][N][v.Graphics2DResources] InitRenderResources...
+[10:41:00.702][N][v.Graphics2DResources] Created texture atlas of size 4096
+[10:41:00.708][N][v.Graphics2DResources] InitRenderResources... DONE!
+[10:41:00.712][N][kl.KLTextureCopy] Init
+[10:41:00.721][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:41:00.721][I][v] KLLoader: Loading version 16 project file...
+[10:41:00.721][N][kl.KLDocument] Init...
+[10:41:00.721][N][kl.KLDocument] Init... DONE!
+[10:41:00.722][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[10:41:00.722][N][v.Audio] Init...
+[10:41:00.722][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[10:41:02.714][I][v.Audio] Initializing audio device... DONE!
+[10:41:02.714][I][v.Audio] [0] iOS Audio
+[10:41:02.714][I][v.Audio]  + OUTPUTS (1)
+[10:41:02.714][I][v.Audio]  (0) iOS Audio
+[10:41:02.714][I][v.Audio]  + INPUTS (1)
+[10:41:02.714][I][v.Audio]  (0) iOS Audio
+[10:41:02.716][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[10:41:02.716][N][v.Audio] Init... DONE!
+[10:41:02.716][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[10:41:02.717][I][v] KLLoader: Loading project: DONE!
+[10:41:02.739][N][kl] Init... DONE!
+[10:41:02.739][N][v.App] Init... DONE!
+[10:41:11.257][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:41:11.258][I][v] KLLoader: Saving project: DONE!
+[10:41:11.259][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:41:11.260][N][v.Config] Saving Config: DONE!
+[10:41:44.298][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:41:44.299][I][v] KLLoader: Saving project: DONE!
+[10:41:44.300][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:41:44.300][N][v.Config] Saving Config: DONE!
+[10:44:10.666][I][v] KLLoader: Loading version 16 project file...
+[10:44:10.668][N][kl.KLDocument] Init...
+[10:44:10.668][N][kl.KLDocument] Init... DONE!
+[10:44:10.669][I][v] KLLoader: Loading project: DONE!
+[10:44:16.417][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:44:16.418][I][v] KLLoader: Saving project: DONE!
+[10:44:16.419][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:44:16.419][N][v.Config] Saving Config: DONE!
+[10:45:12.488][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:45:12.490][I][v] KLLoader: Saving project: DONE!
+[10:45:12.491][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:45:12.491][N][v.Config] Saving Config: DONE!
+[10:45:51.919][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:45:51.921][I][v] KLLoader: Saving project: DONE!
+[10:45:51.922][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:45:51.923][N][v.Config] Saving Config: DONE!
+[10:46:32.095][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:46:32.097][I][v] KLLoader: Saving project: DONE!
+[10:46:32.098][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:46:32.099][N][v.Config] Saving Config: DONE!
+[10:47:25.612][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:47:25.613][I][v] KLLoader: Saving project: DONE!
+[10:47:25.614][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:47:25.614][N][v.Config] Saving Config: DONE!
+[10:48:11.081][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:48:11.083][I][v] KLLoader: Saving project: DONE!
+[10:48:11.084][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:48:11.085][N][v.Config] Saving Config: DONE!
+[10:49:16.198][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:49:16.199][I][v] KLLoader: Saving project: DONE!
+[10:49:16.200][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:49:16.200][N][v.Config] Saving Config: DONE!
+[10:55:01.687][I][v] OpenFileURL: '/private/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Inbox/Quicky Aud.klproj'...
+[10:55:01.687][I][v] OpenFileURL: isAlreadyInDocs: YES
+[10:55:01.687][I][v] OpenFileURL: DONE!
+[10:55:01.734][N][kl] OpenFile: '/private/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Inbox/Quicky Aud.klproj'
+[10:55:01.734][N][kl] OpenFile: File is of type: Project
+[10:55:01.734][I][v] KLLoader: Loading project: '/private/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Inbox/Quicky Aud.klproj'...
+[10:55:01.734][I][v] KLLoader: Loading version 16 project file...
+[10:55:01.743][N][v.es3.PdrRenderDevice] Init...
+[10:55:01.743][N][v.es3.PdrNativeRenderContext] Init...
+[10:55:01.744][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[10:55:01.751][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:55:01.751][N][v.es3.PdrRenderDevice] VERSION                  : OpenGL ES 3.0 Metal - 94.5
+[10:55:01.751][N][v.es3.PdrRenderDevice] VENDOR                   : Apple Inc.
+[10:55:01.751][N][v.es3.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[10:55:01.751][N][v.es3.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 3.00
+[10:55:01.751][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:55:01.751][N][v.es3.PdrRenderDevice] OpenGL ES Extensions:
+[10:55:01.751][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_OES_standard_derivatives
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_KHR_texture_compression_astc_ldr
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_debug_label
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_debug_marker
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_read_format_bgra
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_separate_shader_objects
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_shader_texture_lod
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_shadow_samplers
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_APPLE_clip_distance
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_APPLE_rgb_422
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_IMG_read_format
+[10:55:01.751][N][v.es3.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[10:55:01.751][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 16384x16384
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 16384
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_SIZE               : 16384
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 16384
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS              : 16
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 16
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 16
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_DRAW_BUFFERS               : 4
+[10:55:01.751][N][v.es3.PdrRenderDevice] MAX_SAMPLES                    : 4
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY                  : 1
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 2048
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_SWIZZLE                : 1
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_SAMPLER                : 1
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_STORAGE                : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[10:55:01.751][N][v.es3.PdrRenderDevice] INSTANCING_DRAW                : 1
+[10:55:01.751][N][v.es3.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] SHADER_SPIRV                   : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] TIMER_QUERY                    : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] DEBUG_MARKER                   : 1
+[10:55:01.752][N][v.es3.PdrRenderDevice] DEBUG_LABEL                    : 1
+[10:55:01.752][N][v.es3.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[10:55:01.752][N][v.es3.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:55:01.752][N][v.es3.PdrRenderDevice] Init... DONE!
+[10:55:01.752][N][v.es3.PdrRenderContext] Init...
+[10:55:01.752][N][v.es3.PdrNativeRenderContext] Init...
+[10:55:01.752][N][v.es3.PdrNativeRenderContext] Init... DONE!
+[10:55:01.752][N][v.es3.PdrRenderContext] Init pipeline state...
+[10:55:01.752][N][v.es3.PdrRenderContext] Init... DONE!
+[10:55:01.752][N][v.ios.PdrDisplay] Creating View: Profile: 'ES3'
+[10:55:01.755][N][kl.KLDocument] Init...
+[10:55:01.755][N][kl.KLDocument] Init... DONE!
+[10:55:01.755][I][v] KLLoader: Loading project: DONE!
+[10:55:01.769][N][kl] OpenFile: File is of type: Unknown
+[10:55:06.425][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:55:06.426][I][v] KLLoader: Saving project: DONE!
+[10:55:06.427][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:55:06.428][N][v.Config] Saving Config: DONE!
+[10:55:56.396][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/QuickyReactive.klproj'...
+[10:55:56.402][I][v] KLLoader: Saving project: DONE!
+[10:56:08.130][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[10:56:08.132][I][v] KLLoader: Saving project: DONE!
+[10:56:08.133][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[10:56:08.133][N][v.Config] Saving Config: DONE!
+[10:59:46.695][I][v] KLLoader: Loading version 16 project file...
+[10:59:46.695][N][kl.KLDocument] Init...
+[10:59:46.695][N][kl.KLDocument] Init... DONE!
+[10:59:46.696][I][v] KLLoader: Loading project: DONE!
+[10:59:48.194][I][v] KLLoader: Loading version 16 project file...
+[10:59:48.206][N][v.es2.PdrRenderDevice] Init...
+[10:59:48.206][N][v.es2.PdrNativeRenderContext] Init...
+[10:59:48.208][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[10:59:48.211][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:59:48.211][N][v.es2.PdrRenderDevice] VERSION                  : OpenGL ES 2.0 Metal - 94.5
+[10:59:48.211][N][v.es2.PdrRenderDevice] VENDOR                   : Apple Inc.
+[10:59:48.211][N][v.es2.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[10:59:48.211][N][v.es2.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 1.00
+[10:59:48.211][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:59:48.211][N][v.es2.PdrRenderDevice] OpenGL ES Extensions:
+[10:59:48.211][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:59:48.211][N][v.es2.PdrRenderDevice] GL_OES_depth_texture
+[10:59:48.211][N][v.es2.PdrRenderDevice] GL_OES_depth_texture_cube_map
+[10:59:48.211][N][v.es2.PdrRenderDevice] GL_OES_depth24
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_element_index_uint
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_fbo_render_mipmap
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_mapbuffer
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_packed_depth_stencil
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_rgb8_rgba8
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_standard_derivatives
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_texture_float
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float_linear
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_OES_vertex_array_object
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_blend_minmax
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_debug_label
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_debug_marker
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_discard_framebuffer
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_draw_instanced
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_instanced_arrays
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_map_buffer_range
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_occlusion_query_boolean
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_read_format_bgra
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_separate_shader_objects
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_shader_texture_lod
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_shadow_samplers
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_sRGB
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_texture_rg
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_EXT_texture_storage
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_APPLE_clip_distance
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[10:59:48.212][N][v.es2.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_framebuffer_multisample
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_rgb_422
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_sync
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_texture_max_level
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_APPLE_texture_packed_float
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_IMG_read_format
+[10:59:48.213][N][v.es2.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[10:59:48.213][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 4096x4096
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 4096
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_SIZE               : 4096
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 4096
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS              : 8
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 8
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 8
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_DRAW_BUFFERS               : 1
+[10:59:48.213][N][v.es2.PdrRenderDevice] MAX_SAMPLES                    : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[10:59:48.213][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY                  : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] TEXTURE_SWIZZLE                : 0
+[10:59:48.213][N][v.es2.PdrRenderDevice] TEXTURE_SAMPLER                : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] TEXTURE_STORAGE                : 1
+[10:59:48.214][N][v.es2.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] INSTANCING_DRAW                : 1
+[10:59:48.214][N][v.es2.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] SHADER_SPIRV                   : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] TIMER_QUERY                    : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] DEBUG_MARKER                   : 1
+[10:59:48.214][N][v.es2.PdrRenderDevice] DEBUG_LABEL                    : 1
+[10:59:48.214][N][v.es2.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[10:59:48.214][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[10:59:48.214][N][v.es2.PdrRenderDevice] Init... DONE!
+[10:59:48.214][N][v.es2.PdrRenderContext] Init...
+[10:59:48.214][N][v.es2.PdrNativeRenderContext] Init...
+[10:59:48.214][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[10:59:48.214][N][v.es2.PdrRenderContext] Init pipeline state...
+[10:59:48.215][N][v.es2.PdrRenderContext] Init... DONE!
+[10:59:48.215][N][v.ios.PdrDisplay] Creating View: Profile: 'ES2'
+[10:59:48.223][N][kl.KLDocument] Init...
+[10:59:48.223][N][kl.KLDocument] Init... DONE!
+[10:59:48.223][I][v] KLLoader: Loading project: DONE!
+[11:00:47.969][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:00:47.970][I][v] KLLoader: Saving project: DONE!
+[11:00:47.970][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:00:47.970][N][v.Config] Saving Config: DONE!
+[11:05:48.881][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:05:48.882][I][v] KLLoader: Saving project: DONE!
+[11:05:48.883][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:05:48.884][N][v.Config] Saving Config: DONE!
+[11:07:09.738][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:07:09.739][I][v] KLLoader: Saving project: DONE!
+[11:07:09.739][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:07:09.740][N][v.Config] Saving Config: DONE!
+[11:08:38.716][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:08:38.716][I][v] KLLoader: Saving project: DONE!
+[11:08:38.717][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:08:38.718][N][v.Config] Saving Config: DONE!
+[11:08:52.631][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:08:52.632][I][v] KLLoader: Saving project: DONE!
+[11:08:52.633][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:08:52.633][N][v.Config] Saving Config: DONE!
+[11:09:20.689][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:09:20.690][I][v] KLLoader: Saving project: DONE!
+[11:09:20.691][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:09:20.691][N][v.Config] Saving Config: DONE!
+[11:09:37.930][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:09:37.931][I][v] KLLoader: Saving project: DONE!
+[11:09:37.931][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:09:37.932][N][v.Config] Saving Config: DONE!
+[11:10:15.423][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:10:15.424][I][v] KLLoader: Saving project: DONE!
+[11:10:15.424][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:10:15.425][N][v.Config] Saving Config: DONE!
+[11:11:42.704][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:11:42.705][I][v] KLLoader: Saving project: DONE!
+[11:11:42.705][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:11:42.706][N][v.Config] Saving Config: DONE!
+[11:12:09.454][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:12:09.457][I][v] KLLoader: Saving project: DONE!
+[11:12:09.458][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:12:09.459][N][v.Config] Saving Config: DONE!
+[11:14:30.628][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:14:30.629][I][v] KLLoader: Saving project: DONE!
+[11:14:30.630][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:14:30.630][N][v.Config] Saving Config: DONE!
+[11:16:12.347][I][v] OpenFileURL: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/Synthesaurio/Lion01.mov'...
+[11:16:12.348][I][v] OpenFileURL: isAlreadyInDocs: NO
+[11:16:12.348][I][v] OpenFileURL: startAccessingSecurityScopedResource: YES
+[11:16:12.348][I][v] CopyToDocuments: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/Synthesaurio/Lion01.mov' to '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Lion01.mov'...
+[11:16:12.431][I][v] CopyToDocuments: DONE!
+[11:16:12.431][I][v] OpenFileURL: DONE!
+[11:16:15.385][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Lion01.mov'
+[11:16:15.399][I][v.avf.AVPlayer] Total track count: 1
+[11:16:15.399][I][v.avf.AVPlayer] Video track count: 1
+[11:16:15.401][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[11:17:00.881][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:17:00.883][I][v] KLLoader: Saving project: DONE!
+[11:17:00.884][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:17:00.885][N][v.Config] Saving Config: DONE!
+[11:24:02.558][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:24:02.564][I][v] KLLoader: Saving project: DONE!
+[11:24:22.633][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:24:22.634][I][v] KLLoader: Saving project: DONE!
+[11:24:22.634][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:24:22.635][N][v.Config] Saving Config: DONE!
+[11:25:26.922][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:25:26.923][I][v] KLLoader: Saving project: DONE!
+[11:25:26.923][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:25:26.924][N][v.Config] Saving Config: DONE!
+[11:27:48.550][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Radio.klproj'...
+[11:27:48.555][I][v] KLLoader: Saving project: DONE!
+[11:28:08.524][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/ Angulo.klproj'...
+[11:28:08.529][I][v] KLLoader: Saving project: DONE!
+[11:28:25.176][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:28:25.177][I][v] KLLoader: Saving project: DONE!
+[11:28:25.177][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:28:25.178][N][v.Config] Saving Config: DONE!
+[11:29:09.205][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:29:09.206][I][v] KLLoader: Saving project: DONE!
+[11:29:09.207][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:29:09.207][N][v.Config] Saving Config: DONE!
+[11:30:20.645][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Combining.klproj'...
+[11:30:20.649][I][v] KLLoader: Saving project: DONE!
+[11:30:32.800][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:30:32.802][I][v] KLLoader: Saving project: DONE!
+[11:30:32.802][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:30:32.804][N][v.Config] Saving Config: DONE!
+[11:32:35.997][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:32:35.998][I][v] KLLoader: Saving project: DONE!
+[11:32:35.999][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:32:35.999][N][v.Config] Saving Config: DONE!
+[11:33:30.692][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:33:30.694][I][v] KLLoader: Saving project: DONE!
+[11:33:30.695][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:33:30.696][N][v.Config] Saving Config: DONE!
+[11:34:18.167][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Combining.klproj'...
+[11:34:18.170][I][v] KLLoader: Saving project: DONE!
+[11:34:22.230][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:34:22.231][I][v] KLLoader: Saving project: DONE!
+[11:34:22.231][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:34:22.232][N][v.Config] Saving Config: DONE!
+[11:35:04.821][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Lion01.mov'
+[11:35:04.821][N][kl] OpenFile: File is of type: Video
+[11:35:04.826][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Lion01.mov'
+[11:35:04.834][I][v.avf.AVPlayer] Total track count: 1
+[11:35:04.834][I][v.avf.AVPlayer] Video track count: 1
+[11:35:04.834][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[11:35:10.658][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'
+[11:35:10.658][N][kl] OpenFile: File is of type: Project
+[11:35:10.661][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:35:10.663][I][v] KLLoader: Loading version 16 project file...
+[11:35:10.663][N][kl.KLDocument] Init...
+[11:35:10.663][N][kl.KLDocument] Init... DONE!
+[11:35:10.663][I][v] KLLoader: Loading project: DONE!
+[11:35:10.669][N][kl] OpenFile: File is of type: Unknown
+[11:38:32.860][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:38:32.862][I][v] KLLoader: Saving project: DONE!
+[11:39:34.917][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'
+[11:39:34.917][N][kl] OpenFile: File is of type: Project
+[11:39:34.918][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:39:34.921][I][v] KLLoader: Loading version 16 project file...
+[11:39:34.921][N][kl.KLDocument] Init...
+[11:39:34.921][N][kl.KLDocument] Init... DONE!
+[11:39:34.921][I][v] KLLoader: Loading project: DONE!
+[11:39:34.927][N][kl] OpenFile: File is of type: Unknown
+[11:40:12.469][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:40:12.471][I][v] KLLoader: Saving project: DONE!
+[11:40:12.472][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:40:12.473][N][v.Config] Saving Config: DONE!
+[11:41:36.311][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:41:36.315][I][v] KLLoader: Saving project: DONE!
+[11:42:29.351][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'
+[11:42:29.352][N][kl] OpenFile: File is of type: Project
+[11:42:29.353][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:42:29.356][I][v] KLLoader: Loading version 16 project file...
+[11:42:29.356][N][kl.KLDocument] Init...
+[11:42:29.356][N][kl.KLDocument] Init... DONE!
+[11:42:29.356][I][v] KLLoader: Loading project: DONE!
+[11:42:29.362][N][kl] OpenFile: File is of type: Unknown
+[11:42:50.712][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:42:50.712][I][v] KLLoader: Saving project: DONE!
+[11:42:50.713][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:42:50.713][N][v.Config] Saving Config: DONE!
+[11:44:30.245][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:44:30.245][I][v] KLLoader: Saving project: DONE!
+[11:44:30.246][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:44:30.246][N][v.Config] Saving Config: DONE!
+[11:50:19.743][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Combining.klproj'
+[11:50:19.744][N][kl] OpenFile: File is of type: Project
+[11:50:19.746][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Combining.klproj'...
+[11:50:19.748][I][v] KLLoader: Loading version 16 project file...
+[11:50:19.748][N][kl.KLDocument] Init...
+[11:50:19.748][N][kl.KLDocument] Init... DONE!
+[11:50:19.748][I][v] KLLoader: Loading project: DONE!
+[11:50:19.754][N][kl] OpenFile: File is of type: Unknown
+[11:51:25.529][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:51:25.530][I][v] KLLoader: Saving project: DONE!
+[11:51:25.530][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:51:25.532][N][v.Config] Saving Config: DONE!
+[11:52:55.153][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:52:55.154][I][v] KLLoader: Saving project: DONE!
+[11:52:55.155][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:52:55.156][N][v.Config] Saving Config: DONE!
+[11:53:33.222][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:53:33.223][I][v] KLLoader: Saving project: DONE!
+[11:53:33.223][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:53:33.224][N][v.Config] Saving Config: DONE!
+[11:55:27.458][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/ C1.klproj'...
+[11:55:27.464][I][v] KLLoader: Saving project: DONE!
+[11:55:32.229][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:55:32.230][I][v] KLLoader: Saving project: DONE!
+[11:55:32.231][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:55:32.232][N][v.Config] Saving Config: DONE!
+[11:56:14.542][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/ C1.klproj'...
+[11:56:14.545][I][v] KLLoader: Saving project: DONE!
+[11:56:17.191][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'
+[11:56:17.192][N][kl] OpenFile: File is of type: Project
+[11:56:17.194][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/Sin Osc.klproj'...
+[11:56:17.197][I][v] KLLoader: Loading version 16 project file...
+[11:56:17.197][N][kl.KLDocument] Init...
+[11:56:17.197][N][kl.KLDocument] Init... DONE!
+[11:56:17.198][I][v] KLLoader: Loading project: DONE!
+[11:56:17.203][N][kl] OpenFile: File is of type: Unknown
+[11:56:29.612][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/ C1.klproj'
+[11:56:29.612][N][kl] OpenFile: File is of type: Project
+[11:56:29.613][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/ C1.klproj'...
+[11:56:29.616][I][v] KLLoader: Loading version 16 project file...
+[11:56:29.616][N][kl.KLDocument] Init...
+[11:56:29.616][N][kl.KLDocument] Init... DONE!
+[11:56:29.617][I][v] KLLoader: Loading project: DONE!
+[11:56:29.622][N][kl] OpenFile: File is of type: Unknown
+[11:56:43.406][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Documents/autosave.klproj'...
+[11:56:43.407][I][v] KLLoader: Saving project: DONE!
+[11:56:43.408][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C80A6FFC-AA89-476C-B5B9-1EB3D9A4F85F/Library/net.hexler.kodelife-m/app.cfg'...
+[11:56:43.408][N][v.Config] Saving Config: DONE!
+[23:52:08.203][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.203][N][v.App] BUILD DATE       : Jan  9 2022 10:09:51
+[23:52:08.203][N][v.App] BUILD TYPE       : Release
+[23:52:08.203][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.203][N][v.App] OS NAME          : iOS (Darwin)
+[23:52:08.203][N][v.App] OS VERSION       : 15.2 (21.2.0)
+[23:52:08.203][N][v.App] OS ARCH          : iPhone14,2
+[23:52:08.203][N][v.App] OS LANG          : es
+[23:52:08.203][N][v.App] CPU COUNT        : 6
+[23:52:08.203][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.203][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[23:52:08.203][N][v.App] APP NAME         : 'KodeLife'
+[23:52:08.203][N][v.App] APP VERSION      : '1.0.3.158'
+[23:52:08.203][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m'
+[23:52:08.203][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Logs'
+[23:52:08.203][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/'
+[23:52:08.203][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/288DAB1C-2C01-4BCB-8C23-38E19DE921F4/KodeLife.app/'
+[23:52:08.203][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.203][I][v.App] Creating instance... DONE!
+[23:52:08.203][I][v] v.es2.CheckAndRegisterRenderDevice...
+[23:52:08.250][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[23:52:08.250][I][v] v.es3.CheckAndRegisterRenderDevice...
+[23:52:08.250][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[23:52:08.250][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[23:52:08.250][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[23:52:08.250][N][v.App] Init...
+[23:52:08.251][N][kl] Init...
+[23:52:08.251][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[23:52:08.252][N][v.Config] Loading Config: DONE!
+[23:52:08.252][N][v.Config] Loading Config from string: ...
+[23:52:08.252][N][v.Config] Loading Config from string: DONE!
+[23:52:08.252][N][v.es2.PdrRenderDevice] Init...
+[23:52:08.252][N][v.es2.PdrNativeRenderContext] Init...
+[23:52:08.253][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[23:52:08.263][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.263][N][v.es2.PdrRenderDevice] VERSION                  : OpenGL ES 2.0 Metal - 94.5
+[23:52:08.263][N][v.es2.PdrRenderDevice] VENDOR                   : Apple Inc.
+[23:52:08.263][N][v.es2.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[23:52:08.263][N][v.es2.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 1.00
+[23:52:08.263][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.263][N][v.es2.PdrRenderDevice] OpenGL ES Extensions:
+[23:52:08.263][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_depth_texture
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_depth_texture_cube_map
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_depth24
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_element_index_uint
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_fbo_render_mipmap
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_mapbuffer
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_packed_depth_stencil
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_rgb8_rgba8
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_standard_derivatives
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_texture_float
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float_linear
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_OES_vertex_array_object
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_EXT_blend_minmax
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_EXT_debug_label
+[23:52:08.263][N][v.es2.PdrRenderDevice] GL_EXT_debug_marker
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_discard_framebuffer
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_draw_instanced
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_instanced_arrays
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_map_buffer_range
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_occlusion_query_boolean
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_read_format_bgra
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_separate_shader_objects
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_shader_texture_lod
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_shadow_samplers
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_sRGB
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_texture_rg
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_EXT_texture_storage
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_clip_distance
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_framebuffer_multisample
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_rgb_422
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_sync
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_texture_max_level
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_APPLE_texture_packed_float
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_IMG_read_format
+[23:52:08.264][N][v.es2.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[23:52:08.264][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 4096x4096
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 4096
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_SIZE               : 4096
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 4096
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS              : 8
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 8
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 8
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_DRAW_BUFFERS               : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] MAX_SAMPLES                    : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY                  : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_SWIZZLE                : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_SAMPLER                : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_STORAGE                : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] INSTANCING_DRAW                : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] SHADER_SPIRV                   : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] TIMER_QUERY                    : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] DEBUG_MARKER                   : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] DEBUG_LABEL                    : 1
+[23:52:08.264][N][v.es2.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[23:52:08.264][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[23:52:08.264][N][v.es2.PdrRenderDevice] Init... DONE!
+[23:52:08.265][N][v.ios.PdrDisplay] Init...
+[23:52:08.265][N][v.es2.PdrRenderContext] Init...
+[23:52:08.265][N][v.es2.PdrNativeRenderContext] Init...
+[23:52:08.265][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[23:52:08.265][N][v.es2.PdrRenderContext] Init pipeline state...
+[23:52:08.265][N][v.es2.PdrRenderContext] Init... DONE!
+[23:52:08.265][N][v.ios.PdrDisplay] Creating View: Profile: 'ES2'
+[23:52:08.267][N][v.ios.PdrDisplay] Init... DONE!
+[23:52:08.267][N][v.Graphics2DResources] InitFontSystem...
+[23:52:08.268][N][v.Graphics2DResources] Creating internal fonts...
+[23:52:08.268][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[23:52:08.268][N][v.Graphics2DResources] InitFontSystem... DONE!
+[23:52:08.268][N][v.Graphics2DResources] InitRenderResources...
+[23:52:08.269][N][v.Graphics2DResources] Created texture atlas of size 4096
+[23:52:08.274][N][v.Graphics2DResources] InitRenderResources... DONE!
+[23:52:08.278][N][kl.KLTextureCopy] Init
+[23:52:08.292][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[23:52:08.293][I][v] KLLoader: Loading version 16 project file...
+[23:52:08.293][N][kl.KLDocument] Init...
+[23:52:08.293][N][kl.KLDocument] Init... DONE!
+[23:52:08.293][I][v] KLLoader: Loading project: DONE!
+[23:52:08.297][N][kl] Init... DONE!
+[23:52:08.297][N][v.App] Init... DONE!
+[23:52:15.990][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[23:52:15.992][I][v] KLLoader: Saving project: DONE!
+[23:52:15.992][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[23:52:15.993][N][v.Config] Saving Config: DONE!
+[23:52:58.578][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Motif.klproj'...
+[23:52:58.583][I][v] KLLoader: Saving project: DONE!
+[23:53:07.346][N][kl.KLDocument] Init...
+[23:53:07.346][N][kl.KLDocument] Init... DONE!
+[23:53:07.353][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[23:53:07.353][N][v.Audio] Init...
+[23:53:07.353][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[23:53:07.849][I][v.Audio] Initializing audio device... DONE!
+[23:53:07.849][I][v.Audio] [0] iOS Audio
+[23:53:07.849][I][v.Audio]  + OUTPUTS (1)
+[23:53:07.849][I][v.Audio]  (0) iOS Audio
+[23:53:07.849][I][v.Audio]  + INPUTS (1)
+[23:53:07.849][I][v.Audio]  (0) iOS Audio
+[23:53:07.851][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[23:53:07.851][N][v.Audio] Init... DONE!
+[23:53:07.851][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[23:53:07.851][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessControl.000000010982A200']
+[23:53:07.851][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessEval.000000010982A200']
+[23:53:07.851][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.Geometry.000000010982A200']
+[23:54:26.470][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[23:54:26.490][I][v.avf.AVPlayer] Total track count: 1
+[23:54:26.490][I][v.avf.AVPlayer] Video track count: 1
+[23:54:26.490][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[23:56:18.582][I][v] KLLoader: Loading version 16 project file...
+[23:56:18.582][N][kl.KLDocument] Init...
+[23:56:18.583][N][kl.KLDocument] Init... DONE!
+[23:56:18.583][I][v] KLLoader: Loading project: DONE!
+[23:56:21.799][I][v] KLLoader: Loading version 16 project file...
+[23:56:21.799][N][kl.KLDocument] Init...
+[23:56:21.799][N][kl.KLDocument] Init... DONE!
+[23:56:21.800][I][v] KLLoader: Loading project: DONE!
+[23:56:24.249][I][v] KLLoader: Loading version 16 project file...
+[23:56:24.249][N][kl.KLDocument] Init...
+[23:56:24.249][N][kl.KLDocument] Init... DONE!
+[23:56:24.250][I][v] KLLoader: Loading project: DONE!
+[23:56:27.749][I][v] KLLoader: Loading version 16 project file...
+[23:56:27.749][N][kl.KLDocument] Init...
+[23:56:27.750][N][kl.KLDocument] Init... DONE!
+[23:56:27.751][I][v] KLLoader: Loading project: DONE!
+[23:56:29.432][I][v] KLLoader: Loading version 16 project file...
+[23:56:29.433][N][kl.KLDocument] Init...
+[23:56:29.433][N][kl.KLDocument] Init... DONE!
+[23:56:29.433][I][v] KLLoader: Loading project: DONE!
+[23:56:50.149][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[23:56:50.158][I][v.avf.AVPlayer] Total track count: 1
+[23:56:50.158][I][v.avf.AVPlayer] Video track count: 1
+[23:56:50.159][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[23:58:14.513][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[23:58:14.514][I][v] KLLoader: Saving project: DONE!
+[23:58:14.514][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[23:58:14.514][N][v.Config] Saving Config: DONE!
+[23:59:24.073][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[23:59:24.076][I][v] KLLoader: Saving project: DONE!
+[23:59:24.077][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[23:59:24.077][N][v.Config] Saving Config: DONE!
+[00:00:22.834][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:00:22.834][I][v] KLLoader: Saving project: DONE!
+[00:00:22.835][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:00:22.836][N][v.Config] Saving Config: DONE!
+[00:00:48.173][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:00:48.174][I][v] KLLoader: Saving project: DONE!
+[00:00:48.175][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:00:48.176][N][v.Config] Saving Config: DONE!
+[00:01:12.232][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:01:12.233][I][v] KLLoader: Saving project: DONE!
+[00:01:12.233][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:01:12.233][N][v.Config] Saving Config: DONE!
+[00:01:33.902][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:01:33.903][I][v] KLLoader: Saving project: DONE!
+[00:01:33.904][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:01:33.904][N][v.Config] Saving Config: DONE!
+[00:01:41.718][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:01:41.719][I][v] KLLoader: Saving project: DONE!
+[00:01:41.720][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:01:41.721][N][v.Config] Saving Config: DONE!
+[00:02:04.062][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:02:04.063][I][v] KLLoader: Saving project: DONE!
+[00:02:04.063][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:02:04.064][N][v.Config] Saving Config: DONE!
+[00:02:39.782][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:02:39.783][I][v] KLLoader: Saving project: DONE!
+[00:02:39.784][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:02:39.784][N][v.Config] Saving Config: DONE!
+[00:02:49.209][I][v] KLLoader: Loading version 16 project file...
+[00:02:49.209][N][kl.KLDocument] Init...
+[00:02:49.209][N][kl.KLDocument] Init... DONE!
+[00:02:49.210][I][v] KLLoader: Loading project: DONE!
+[00:02:52.177][I][v] KLLoader: Loading version 16 project file...
+[00:02:52.177][N][kl.KLDocument] Init...
+[00:02:52.178][N][kl.KLDocument] Init... DONE!
+[00:02:52.178][I][v] KLLoader: Loading project: DONE!
+[00:02:53.862][I][v] KLLoader: Loading version 16 project file...
+[00:02:53.862][N][kl.KLDocument] Init...
+[00:02:53.862][N][kl.KLDocument] Init... DONE!
+[00:02:53.863][I][v] KLLoader: Loading project: DONE!
+[00:02:53.865][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessControl.000000010907CA00']
+[00:02:53.865][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessEval.000000010907CA00']
+[00:02:53.865][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.Geometry.000000010907CA00']
+[00:02:57.225][N][kl.KLDocument] Init...
+[00:02:57.225][N][kl.KLDocument] Init... DONE!
+[00:02:57.226][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessControl.0000000117877400']
+[00:02:57.227][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.TessEval.0000000117877400']
+[00:02:57.227][E][v.Resources] No source found for Profile/Shader: ['ES2'/'KodeLife.Shader.Geometry.0000000117877400']
+[00:04:42.127][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:04:42.128][I][v] KLLoader: Saving project: DONE!
+[00:04:42.129][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:04:42.129][N][v.Config] Saving Config: DONE!
+[00:05:30.388][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:05:30.398][I][v.avf.AVPlayer] Total track count: 1
+[00:05:30.398][I][v.avf.AVPlayer] Video track count: 1
+[00:05:30.398][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[00:07:04.578][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Video01.klproj'...
+[00:07:04.583][I][v] KLLoader: Saving project: DONE!
+[00:07:12.456][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:07:12.457][I][v] KLLoader: Saving project: DONE!
+[00:07:12.458][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:07:12.458][N][v.Config] Saving Config: DONE!
+[00:08:20.047][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:08:20.048][I][v] KLLoader: Saving project: DONE!
+[00:08:20.049][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:08:20.050][N][v.Config] Saving Config: DONE!
+[00:09:46.879][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Video01.klproj'...
+[00:09:46.880][I][v] KLLoader: Saving project: DONE!
+[00:09:51.221][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:09:51.222][I][v] KLLoader: Saving project: DONE!
+[00:09:51.223][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:09:51.224][N][v.Config] Saving Config: DONE!
+[00:11:21.254][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/H 02.png'
+[00:11:21.255][N][kl] OpenFile: File is of type: Image
+[00:11:21.262][N][kl] OpenFile: File is of type: Unknown
+[00:11:27.724][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Combining.klproj'
+[00:11:27.724][N][kl] OpenFile: File is of type: Project
+[00:11:27.730][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Combining.klproj'...
+[00:11:27.733][I][v] KLLoader: Loading version 16 project file...
+[00:11:27.733][N][kl.KLDocument] Init...
+[00:11:27.733][N][kl.KLDocument] Init... DONE!
+[00:11:27.733][I][v] KLLoader: Loading project: DONE!
+[00:11:27.740][N][kl] OpenFile: File is of type: Unknown
+[00:11:31.788][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:11:31.788][N][kl] OpenFile: File is of type: Video
+[00:11:31.792][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:11:31.800][I][v.avf.AVPlayer] Total track count: 1
+[00:11:31.800][I][v.avf.AVPlayer] Video track count: 1
+[00:11:31.801][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[00:11:40.672][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:11:40.672][N][kl] OpenFile: File is of type: Video
+[00:11:40.677][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:11:40.684][I][v.avf.AVPlayer] Total track count: 1
+[00:11:40.684][I][v.avf.AVPlayer] Video track count: 1
+[00:11:40.685][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[00:11:44.408][N][kl] OpenFile: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Video01.klproj'
+[00:11:44.408][N][kl] OpenFile: File is of type: Project
+[00:11:44.410][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Video01.klproj'...
+[00:11:44.414][I][v] KLLoader: Loading version 16 project file...
+[00:11:44.414][N][kl.KLDocument] Init...
+[00:11:44.414][N][kl.KLDocument] Init... DONE!
+[00:11:44.419][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:11:44.423][I][v.avf.AVPlayer] Total track count: 1
+[00:11:44.424][I][v.avf.AVPlayer] Video track count: 1
+[00:11:44.424][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[00:11:44.426][I][v] KLLoader: Loading project: DONE!
+[00:11:44.434][N][kl] OpenFile: File is of type: Unknown
+[00:12:02.919][I][v] OpenFileURL: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/BloomingFlower.mov'...
+[00:12:02.919][I][v] OpenFileURL: isAlreadyInDocs: NO
+[00:12:02.919][I][v] OpenFileURL: startAccessingSecurityScopedResource: YES
+[00:12:02.919][I][v] CopyToDocuments: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/BloomingFlower.mov' to '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/BloomingFlower.mov'...
+[00:12:02.962][I][v] CopyToDocuments: DONE!
+[00:12:02.962][I][v] OpenFileURL: DONE!
+[00:12:04.442][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/BloomingFlower.mov'
+[00:12:04.451][I][v.avf.AVPlayer] Total track count: 2
+[00:12:04.451][I][v.avf.AVPlayer] Video track count: 1
+[00:12:04.451][I][v.avf.AVPlayer] Frame size: 886 x 498
+[00:12:56.304][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:12:56.305][I][v] KLLoader: Saving project: DONE!
+[00:12:56.306][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:12:56.307][N][v.Config] Saving Config: DONE!
+[00:13:46.865][I][v] OpenFileURL: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/GAN/latentwalk_0003.mp4'...
+[00:13:46.865][I][v] OpenFileURL: isAlreadyInDocs: NO
+[00:13:46.865][I][v] OpenFileURL: startAccessingSecurityScopedResource: YES
+[00:13:46.865][I][v] CopyToDocuments: '/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/Documents/Synthesaurio/Visuals/Videos/GAN/latentwalk_0003.mp4' to '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/latentwalk_0003.mp4'...
+[00:13:46.878][I][v] CopyToDocuments: DONE!
+[00:13:46.878][I][v] OpenFileURL: DONE!
+[00:13:48.517][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/latentwalk_0003.mp4'
+[00:13:48.526][I][v.avf.AVPlayer] Total track count: 1
+[00:13:48.526][I][v.avf.AVPlayer] Video track count: 1
+[00:13:48.526][I][v.avf.AVPlayer] Frame size: 1024 x 1024
+[00:15:12.192][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[00:15:12.200][I][v.avf.AVPlayer] Total track count: 1
+[00:15:12.201][I][v.avf.AVPlayer] Video track count: 1
+[00:15:12.201][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[00:15:29.293][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:15:29.294][I][v] KLLoader: Saving project: DONE!
+[00:15:29.295][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:15:29.296][N][v.Config] Saving Config: DONE!
+[00:15:31.119][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:15:31.121][I][v] KLLoader: Saving project: DONE!
+[00:15:31.122][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:15:31.123][N][v.Config] Saving Config: DONE!
+[00:15:31.432][N][v.App] Exit...
+[00:15:31.432][N][kl] Exit...
+[00:15:31.432][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[00:15:31.433][I][v] KLLoader: Saving project: DONE!
+[00:15:31.434][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[00:15:31.434][N][v.Config] Saving Config: DONE!
+[00:15:31.434][N][kl] Exit... DONE!
+[00:15:31.435][N][v.App] Exit... DONE!
+[00:15:31.435][N][v.App] Calling exit()...
+[12:02:38.954][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[12:02:38.955][N][v.App] BUILD DATE       : Jan  9 2022 10:09:51
+[12:02:38.955][N][v.App] BUILD TYPE       : Release
+[12:02:38.955][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[12:02:38.955][N][v.App] OS NAME          : iOS (Darwin)
+[12:02:38.955][N][v.App] OS VERSION       : 15.3 (21.3.0)
+[12:02:38.955][N][v.App] OS ARCH          : iPhone14,2
+[12:02:38.955][N][v.App] OS LANG          : es
+[12:02:38.955][N][v.App] CPU COUNT        : 6
+[12:02:38.955][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[12:02:38.955][N][v.App] APP ID           : 'net.hexler.kodelife-m'
+[12:02:38.955][N][v.App] APP NAME         : 'KodeLife'
+[12:02:38.955][N][v.App] APP VERSION      : '1.0.3.158'
+[12:02:38.955][N][v.App] CONFIG DIRECTORY : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m'
+[12:02:38.955][N][v.App] LOG DIRECTORY    : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Logs'
+[12:02:38.955][N][v.App] DOC DIRECTORY    : '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/'
+[12:02:38.955][N][v.App] RES DIRECTORY    : '/private/var/containers/Bundle/Application/288DAB1C-2C01-4BCB-8C23-38E19DE921F4/KodeLife.app/'
+[12:02:38.955][N][v.App] ////////////////////////////////////////////////////////////////////////////////
+[12:02:38.955][I][v.App] Creating instance... DONE!
+[12:02:38.955][I][v] v.es2.CheckAndRegisterRenderDevice...
+[12:02:38.995][I][v] v.es2.CheckAndRegisterRenderDevice... SUCCESS!
+[12:02:38.995][I][v] v.es3.CheckAndRegisterRenderDevice...
+[12:02:38.998][I][v] v.es3.CheckAndRegisterRenderDevice... SUCCESS!
+[12:02:38.998][I][v] v.mtl.CheckAndRegisterRenderDevice...
+[12:02:38.998][I][v] v.mtl.CheckAndRegisterRenderDevice... SUCCESS!
+[12:02:38.998][N][v.App] Init...
+[12:02:38.999][N][kl] Init...
+[12:02:39.000][N][v.Config] Loading Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[12:02:39.001][N][v.Config] Loading Config: DONE!
+[12:02:39.001][N][v.Config] Loading Config from string: ...
+[12:02:39.001][N][v.Config] Loading Config from string: DONE!
+[12:02:39.001][N][v.es2.PdrRenderDevice] Init...
+[12:02:39.001][N][v.es2.PdrNativeRenderContext] Init...
+[12:02:39.002][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[12:02:39.008][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.008][N][v.es2.PdrRenderDevice] VERSION                  : OpenGL ES 2.0 Metal - 94.5
+[12:02:39.008][N][v.es2.PdrRenderDevice] VENDOR                   : Apple Inc.
+[12:02:39.008][N][v.es2.PdrRenderDevice] RENDERER                 : Apple A15 GPU
+[12:02:39.008][N][v.es2.PdrRenderDevice] SHADING_LANGUAGE_VERSION : OpenGL ES GLSL ES 1.00
+[12:02:39.008][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.008][N][v.es2.PdrRenderDevice] OpenGL ES Extensions:
+[12:02:39.008][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_depth_texture
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_depth_texture_cube_map
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_depth24
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_element_index_uint
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_fbo_render_mipmap
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_mapbuffer
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_packed_depth_stencil
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_rgb8_rgba8
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_standard_derivatives
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_texture_float
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_texture_half_float_linear
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_OES_vertex_array_object
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_blend_minmax
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_color_buffer_half_float
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_debug_label
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_debug_marker
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_discard_framebuffer
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_draw_instanced
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_instanced_arrays
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_map_buffer_range
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_occlusion_query_boolean
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_pvrtc_sRGB
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_read_format_bgra
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_separate_shader_objects
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_shader_framebuffer_fetch
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_shader_texture_lod
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_shadow_samplers
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_sRGB
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_texture_filter_anisotropic
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_texture_rg
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_EXT_texture_storage
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_clip_distance
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_color_buffer_packed_float
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_copy_texture_levels
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_framebuffer_multisample
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_rgb_422
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_sync
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_texture_format_BGRA8888
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_texture_max_level
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_APPLE_texture_packed_float
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_IMG_read_format
+[12:02:39.008][N][v.es2.PdrRenderDevice] GL_IMG_texture_compression_pvrtc
+[12:02:39.008][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_VIEWPORT_DIMS              : 4096x4096
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_RENDERBUFFER_SIZE          : 4096
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_SIZE               : 4096
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_CUBE_MAP_TEXTURE_SIZE      : 4096
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS              : 8
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_VERTEX       : 8
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_CONTROL : 0
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_TESS_EVAL    : 0
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_GEOMETRY     : 0
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_FRAGMENT     : 8
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_TEXTURE_UNITS_COMPUTE      : 0
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_VERTEX_ATTRIBUTES          : 16
+[12:02:39.008][N][v.es2.PdrRenderDevice] MAX_DRAW_BUFFERS               : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] MAX_SAMPLES                    : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_DEPTH                  : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY                  : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_ARRAY_MAX_LAYERS       : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_SWIZZLE                : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_SAMPLER                : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_STORAGE                : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] TEXTURE_SHADER_STORE           : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] BUFFER_STORAGE                 : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] BUFFER_SHADER_STORE            : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] INSTANCING_DRAW                : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] SHADER_GEOMETRY                : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] SHADER_TESSELLATION            : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] SHADER_COMPUTE                 : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] SHADER_SPIRV                   : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] TIMER_QUERY                    : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] DEBUG_MARKER                   : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] DEBUG_LABEL                    : 1
+[12:02:39.009][N][v.es2.PdrRenderDevice] DEBUG_OUTPUT                   : 0
+[12:02:39.009][N][v.es2.PdrRenderDevice] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.009][N][v.es2.PdrRenderDevice] Init... DONE!
+[12:02:39.011][N][v.ios.PdrDisplay] Init...
+[12:02:39.011][N][v.es2.PdrRenderContext] Init...
+[12:02:39.011][N][v.es2.PdrNativeRenderContext] Init...
+[12:02:39.012][N][v.es2.PdrNativeRenderContext] Init... DONE!
+[12:02:39.012][N][v.es2.PdrRenderContext] Init pipeline state...
+[12:02:39.012][N][v.es2.PdrRenderContext] Init... DONE!
+[12:02:39.012][N][v.ios.PdrDisplay] Creating View: Profile: 'ES2'
+[12:02:39.015][N][v.ios.PdrDisplay] Init... DONE!
+[12:02:39.015][N][v.Graphics2DResources] InitFontSystem...
+[12:02:39.016][N][v.Graphics2DResources] Creating internal fonts...
+[12:02:39.016][N][v.Graphics2DResources] Creating internal fonts... DONE!
+[12:02:39.016][N][v.Graphics2DResources] InitFontSystem... DONE!
+[12:02:39.016][N][v.Graphics2DResources] InitRenderResources...
+[12:02:39.018][N][v.Graphics2DResources] Created texture atlas of size 4096
+[12:02:39.028][N][v.Graphics2DResources] InitRenderResources... DONE!
+[12:02:39.035][N][kl.KLTextureCopy] Init
+[12:02:39.051][I][v] KLLoader: Loading project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[12:02:39.052][I][v] KLLoader: Loading version 16 project file...
+[12:02:39.052][N][kl.KLDocument] Init...
+[12:02:39.052][N][kl.KLDocument] Init... DONE!
+[12:02:39.053][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[12:02:39.053][N][v.Audio] Init...
+[12:02:39.053][I][v.Audio] Initializing audio device with i/o (2, 2) ...
+[12:02:41.130][I][v.Audio] Initializing audio device... DONE!
+[12:02:41.130][I][v.Audio] [0] iOS Audio
+[12:02:41.131][I][v.Audio]  + OUTPUTS (1)
+[12:02:41.131][I][v.Audio]  (0) iOS Audio
+[12:02:41.131][I][v.Audio]  + INPUTS (1)
+[12:02:41.131][I][v.Audio]  (0) iOS Audio
+[12:02:41.134][I][v.Audio] Supported formats: WAV file, AIFF file, FLAC file, Ogg-Vorbis file, CoreAudio supported file
+[12:02:41.135][N][v.Audio] Init... DONE!
+[12:02:41.135][N][v.Audio] ////////////////////////////////////////////////////////////////////////////////
+[12:02:41.147][I][v.avf.AVPlayer] SetPath: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/Lion01.mov'
+[12:02:41.153][I][v.avf.AVPlayer] Total track count: 1
+[12:02:41.153][I][v.avf.AVPlayer] Video track count: 1
+[12:02:41.154][I][v.avf.AVPlayer] Frame size: 1280 x 720
+[12:02:41.163][I][v] KLLoader: Loading project: DONE!
+[12:02:41.176][N][kl] Init... DONE!
+[12:02:41.176][N][v.App] Init... DONE!
+[12:02:47.276][I][v] KLLoader: Saving project: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Documents/autosave.klproj'...
+[12:02:47.279][I][v] KLLoader: Saving project: DONE!
+[12:02:47.280][N][v.Config] Saving Config: '/var/mobile/Containers/Data/Application/C56CCD73-42FB-4909-A8EB-C36EBB0D4171/Library/net.hexler.kodelife-m/app.cfg'...
+[12:02:47.281][N][v.Config] Saving Config: DONE!
