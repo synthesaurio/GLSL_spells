@@ -1,7 +1,6 @@
 // This is a stickersheet for some common functions that I use, a lot of this has been ripped from others amazing people work and I will try to link their profiles in the description
 
 // ~~~~~~~~~~ | Utility | ~~~~~~~~~~
-
 //uv flip
 vec2 uvFlip(vec2 uv){
     vec2 uvf = vec2(uv.x, 1.0 - uv.y);
