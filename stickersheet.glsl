@@ -28,3 +28,40 @@ vec3 WaterFeedback(vec4 video, vec2 uv){
     return col; 
 }
 
+//KALEIDOSCOPE
+float pModPolar(inout vec2 p, float repetitions) {
+    float PI = 3.14;
+    float angle = 2.*PI/repetitions;
+    float a = atan(p.y, p.x) + angle/2.;
+    float r = length(p);
+    float c = floor(a/angle);
+    a = mod(a,angle) - angle/2.;
+    p = vec2(cos(a), sin(a))*r;
+    // For an odd number of repetitions, fix cell index of the cell in -x direction
+    // (cell index would be e.g. -5 and 5 in the two halves of the cell):
+    if (abs(c) >= (repetitions/2.)) c = abs(c);
+    return c;
+}
+
+// ROTATION
+void pR(inout vec2 p, float a) {
+    p = cos(a)*p + sin(a)*vec2(p.y, -p.x);
+}
+
+// Negative image
+void negative(inout vec3 col, float neg){
+    col = abs((neg*1.0) - col);
+}
+// Luma dark
+void low_luma(inout vec3 col, float th){
+    if((col.r + col.g + col.b)/3.0 < th){
+        col = vec3(0.0);
+    }
+}
+// Luma light
+void high_luma(inout vec3 col, float th){
+    if((col.r + col.g + col.b)/3.0 > th){
+        col = vec3(0.0);
+    }
+}
+
