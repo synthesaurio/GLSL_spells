@@ -23,6 +23,7 @@ vec2 midiCoord(float offset){
 // Watercolor feedback
 //adapted from https://www.shadertoy.com/view/Mslczf
 vec3 WaterFeedback(vec4 video, vec2 uv){
+    float luminance (vec4 c) { return (c.r+c.g+c.b)/3.; }
     vec2 unit = 1. / resolution.xy;
     vec4 frame = texture2D(prevFrame, uv);
     float angle = luminance(frame) * 3.1459 * 2.;
