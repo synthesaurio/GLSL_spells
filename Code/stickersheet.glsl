@@ -107,6 +107,22 @@ float smin( float a, float b, float k ) {
     return mix( b, a, h ) - k*h*(1.0-h);
 }
 
+// noise func
+float hash( float n ) { return fract(sin(n)*753.5453123); }
+float noise( in vec3 x )
+{
+    vec3 p = floor(x);
+    vec3 f = fract(x);
+    f = f*f*(3.0-2.0*f);
+   
+    float n = p.x + p.y*157.0 + 113.0*p.z;
+    return mix(mix(mix( hash(n+  0.0), hash(n+  1.0),f.x),
+                   mix( hash(n+157.0), hash(n+158.0),f.x),f.y),
+               mix(mix( hash(n+113.0), hash(n+114.0),f.x),
+                   mix( hash(n+270.0), hash(n+271.0),f.x),f.y),f.z);
+}
+
+
 // TEXTURING
 
 // diffuse material
@@ -185,3 +201,9 @@ float sdPyramid(in vec3 p, in float h)
     return sqrt( (d2+q.z*q.z)/m2 ) * sign(max(q.z,-p.y));;
 }
 
+// Gyroid
+float sdGyroid(vec3 p, float scale, float thickness, float bias){
+   p *= scale;
+   float gyr = abs(dot(sin(1.0*p + time*0.6), cos(p.zxy*1.0))-bias)/(scale*3.0) - thickness;
+   return gyr;
+}
