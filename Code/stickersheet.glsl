@@ -54,6 +54,20 @@ float pModPolar(inout vec2 p, float repetitions) {
     return c;
 }
 
+// Pixel sorting (from: https://editor.isf.video/shaders/5e7a7fcb7c113618206de479)
+
+vec2 pixSort(inout vec2 uv, float width, float height, float shift, float wobble, float seed){
+    float _width = (width == 0.0) ? 1.0 / resolution.y : width;
+    float _height = (height == 0.0) ? 1.0 / resolution.x : height;
+    float mod_x = _width * floor(mod(shift + uv.y, 1.0) / _width);
+    float y_seed = wobble * (sin(18.137*mod_x + seed + 0.97) + cos(11.347 * mod_x + seed + 0.19)+1.0)/2.0;
+    float row_hash = rand(seed+vec2(y_seed + mod_x, _height*ceil(uv.x/_height)));
+    float row_width = row_hash * _width;
+    uv.y = row_width * floor(uv.y / row_width);
+    
+    return(uv);
+}
+
 // ROTATION
 void pR(inout vec2 p, float a) {
     p = cos(a)*p + sin(a)*vec2(p.y, -p.x);
